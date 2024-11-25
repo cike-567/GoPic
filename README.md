@@ -73,7 +73,7 @@ AI 可以在一些简单的任务中提高开发效率，特别是在生成简�
 1. 克隆代码库：
 
     ```bash
-    git clone https://代码库地址.git
+    git clone https://github.com/cike-567/GoPic.git
     ```
 
 2. 安装 Go 环境
@@ -92,7 +92,7 @@ AI 可以在一些简单的任务中提高开发效率，特别是在生成简�
     进入克隆下来的项目目录，通常项目里会有一个 `go.mod` 文件，该文件定义了项目的依赖。
 
     ```bash
-    cd 代码库名字
+    cd GoPic
     go mod tidy
     ```
 
