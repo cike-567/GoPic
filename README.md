@@ -51,7 +51,7 @@ AI 可以在一些简单的任务中提高开发效率，特别是在生成简�
 1. 克隆代码库：
 
    ```bash
-   git clone https://代码库地址.git
+   git clone https://github.com/cike-567/GoPic
    ```
 
 2. 安装 Go 环境
@@ -77,14 +77,6 @@ AI 可以在一些简单的任务中提高开发效率，特别是在生成简�
    `go mod tidy` 命令会自动下载项目所需的所有依赖包。
 
 4. 构建应用程序：
-
-   推荐使用仓库自带的构建脚本，它会固定产物名，Windows 下为 `random_image_server.exe`，其它平台为 `random_image_server`：
-
-   ```powershell
-   pwsh -File build.ps1
-   ```
-
-   也可以直接调用 `go build`：
 
    ```bash
    go build -o random_image_server
